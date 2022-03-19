@@ -20,10 +20,10 @@ function startFlow() {
     recipient: $("#recipient").val(),
     erp: $("#erp").val(),
     orderData: {
-        CustomerName: $("#CustomerName").val(),
-        CustomerEmail: $("#recipient").val(), //just for demo purposes
-        Address: $("#Address").val(),
-        ProductID: $("#ProductID").val()
+        Buyer: $("#Buyer").val(),
+        SalesArea: $("#SalesArea").val(),
+        Material: $("#Material").val(),
+        Quantity: $("#Quantity").val()
     }
   }
 
